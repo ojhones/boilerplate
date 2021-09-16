@@ -1,36 +1,71 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  background-color: #06092b;
+}
+
+.c1 {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2.5rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.c4 {
+  width: min(30rem,100%);
+  margin-top: 3rem;
+}
+
 <main
-  class="styles__Container-sc-dzx1ao-0 fIuBde"
+  class="c0"
 >
   <img
     alt="imagem de um átomo e React Avancado escrito ao lado"
-    class="styles__Logo-sc-dzx1ao-1 dwiHcF"
+    class="c1"
     src="/images/svg/logo.svg"
   />
   <h1
-    class="styles__Title-sc-dzx1ao-2 hBQRUr"
+    class="c2"
   >
     React Avançado
   </h1>
   <h2
-    class="styles__Description-sc-dzx1ao-3 cWfoFI"
+    class="c3"
   >
     Typescript, ReactJS, ReactJS e Styled Components
   </h2>
   <img
     alt="Desenvolvedor de frente para tela com código"
-    class="styles__Illustration-sc-dzx1ao-4 eJuOld"
+    class="c4"
     src="/images/svg/illustration.svg"
   />
 </main>
-`;
-
-exports[`<Main/> should render the heading 1`] = `
-<div>
-  <h1>
-    React Avançado
-  </h1>
-</div>
 `;
