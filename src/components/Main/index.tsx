@@ -1,6 +1,9 @@
 import * as S from './styles';
 
-export default function Main() {
+export default function Main({
+  title = 'React Avançado',
+  description = 'Typescript, ReactJS, NextJS e Styled Components',
+}) {
   return (
     <S.Container>
       <S.Logo
@@ -8,11 +11,9 @@ export default function Main() {
         alt="imagem de um átomo e React Avancado escrito ao lado"
       />
 
-      <S.Title>React Avançado</S.Title>
+      <S.Title>{title}</S.Title>
 
-      <S.Description>
-        Typescript, ReactJS, ReactJS e Styled Components
-      </S.Description>
+      <S.Description>{description}</S.Description>
 
       <S.Illustration
         src="/images/svg/illustration.svg"
